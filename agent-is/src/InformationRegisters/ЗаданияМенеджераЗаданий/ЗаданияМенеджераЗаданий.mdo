@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b09fd335-eee4-4b6c-9cf7-89b33a3df622">
+  <producedTypes>
+    <selectionType typeId="3f7149c2-9547-473f-acad-6ad4caab59ae" valueTypeId="7f8c5bf8-1fa3-4324-bf9c-2d9fb272d34a"/>
+    <listType typeId="57aec8d6-1f6b-4ea0-9df4-d7ff89e33565" valueTypeId="49e67220-6d02-4dd3-b32f-ef8cd9d60c7e"/>
+    <managerType typeId="225cedca-d84f-4d76-ac80-a6d200218838" valueTypeId="1f30ff02-2d4e-462f-86a1-443146ca6d10"/>
+    <recordSetType typeId="98c5e222-7b00-4eac-a8ba-dd71936f3742" valueTypeId="c4ebe903-c8b0-4b5f-bef5-6817ef61ca6c"/>
+    <recordKeyType typeId="dbb26d57-ddf4-4d04-a8c6-b86d13eb81c9" valueTypeId="d2c0a7dd-f1cc-4cfc-8c81-3b932420271c"/>
+    <recordType typeId="3fcd2623-4448-4584-ae32-fa131be91a0a" valueTypeId="fa852211-ddd8-4748-97ad-a028f589c1e3"/>
+    <recordManagerType typeId="7d0856fb-5f36-4695-95a1-ad24cec0040d" valueTypeId="db4a78f2-8032-49ef-b3f2-62560fcfac70"/>
+  </producedTypes>
+  <name>ЗаданияМенеджераЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания (Менеджер заданий)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Задание (Менеджер заданий)</value>
+  </recordPresentation>
+  <attributes uuid="cc78bf91-4ccb-4a6a-a9ef-f176c7c4ff26">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияЗаданийМенеджераЗаданий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ed450c3-b085-4496-9190-bfd372249a9e">
+    <name>ИмяМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="5618d675-47b2-4a37-832c-9f9a2c71bf4b">
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6e0c1f9d-15ef-43a2-acf5-076d67270a61">
+    <name>КлючИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ исполнителя</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5e651d52-f48d-4873-944f-712c0beb7032">
+    <name>НачалоВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="af45aa40-7cec-4646-b9e1-0582e342cac9">
+    <name>ЗавершениеВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершение выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d049c020-baa9-4a57-aab9-599707deec59">
+    <name>КоличествоПопытокВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток выполнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5653d121-0b18-4ada-863d-db5490104503">
+    <name>РезультатВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выполнения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="93b94152-71b5-41d2-854b-5cdfddae3638">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

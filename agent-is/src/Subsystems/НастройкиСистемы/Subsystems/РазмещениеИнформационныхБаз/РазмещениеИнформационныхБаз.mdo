@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ded29982-6b4f-4287-b9c2-22944ab91566">
+  <name>РазмещениеИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение информационных баз</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.КаталогиРазмещенияИнформационныхБаз</content>
+  <content>InformationRegister.КаталогиИсключенияРазмещенияИнформационныхБаз</content>
+  <parentSubsystem>Subsystem.НастройкиСистемы</parentSubsystem>
+</mdclass:Subsystem>

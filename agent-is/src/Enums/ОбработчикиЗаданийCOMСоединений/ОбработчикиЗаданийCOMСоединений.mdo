@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a042b3e5-d540-4683-b9ad-6b7d4bc432c9">
+  <producedTypes>
+    <refType typeId="3f96b5b6-ca1d-4a8a-9b31-5dc95cc12f6c" valueTypeId="cd7f5eb5-9356-40ae-9860-9932b2670412"/>
+    <listType typeId="991e357b-ae30-405d-9929-1fe615eb5226" valueTypeId="31347dc7-4803-48c6-9039-883c1bd8a333"/>
+    <managerType typeId="c184ea84-6d31-477e-9619-7877535109fd" valueTypeId="49351a84-0c98-4a71-a1f1-6c5b2af2bd0e"/>
+  </producedTypes>
+  <name>ОбработчикиЗаданийCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики заданий COM соединений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

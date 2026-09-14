@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffa37ec9-ec53-48bd-b53b-a5cb24e02581">
+  <name>МенеджерЗаданийCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер заданий COM соединений</value>
+  </synonym>
+  <methodName>CommonModule.РаботаСЗаданиямиCOMСоединенийСлужебный.МенеджерЗаданийCOMСоединений</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

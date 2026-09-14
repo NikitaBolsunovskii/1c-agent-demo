@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee8a1319-149f-4873-a493-cf9c6acc18b5">
+  <name>ЗаданияCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания COM соединений</value>
+  </synonym>
+  <rootURL>com-exchange-tasks</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="887e65d4-d64b-48f0-a2cc-bd0c60470c8d">
+    <name>ДобавитьЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить задание</value>
+    </synonym>
+    <template>/{hander}/create</template>
+    <methods uuid="e6d5a9d5-9a28-4167-8e74-c47e3c2d6b13">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ДобавитьЗаданиеPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

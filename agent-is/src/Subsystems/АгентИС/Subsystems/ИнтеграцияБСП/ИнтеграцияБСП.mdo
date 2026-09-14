@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2231a239-ebb3-4b4f-b3cb-43b33fc0a801">
+  <name>ИнтеграцияБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция БСП</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОбновлениеИнформационнойБазыАгентИС</content>
+  <content>CommonModule.ПодсистемыКонфигурацииПереопределяемый</content>
+  <parentSubsystem>Subsystem.АгентИС</parentSubsystem>
+</mdclass:Subsystem>

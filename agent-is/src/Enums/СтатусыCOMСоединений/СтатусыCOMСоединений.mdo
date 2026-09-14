@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="383b4d17-aa72-46af-be29-ec40b21f784b">
+  <producedTypes>
+    <refType typeId="08a44625-ab88-4d50-b797-2d6ff53ec85f" valueTypeId="71c09d3e-26ca-4cb6-87b2-0bb5e20584cc"/>
+    <listType typeId="b2893b86-ca45-4233-9052-8480b94e50ab" valueTypeId="8a33c950-5093-4a95-801e-0362e045b886"/>
+    <managerType typeId="8ee41cd4-0478-4022-81b1-46f390920de1" valueTypeId="b3841713-a3be-4c58-8670-ef85d5a950ed"/>
+  </producedTypes>
+  <name>СтатусыCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы COMСоединений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3fec3152-5069-45ee-a8d1-0b21fc503b65">
+    <name>Ожидает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c25f78ae-a98b-46c2-aee9-ef93d853221c">
+    <name>Соединено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соединено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4dae361-a67d-477d-b759-6c4983828699">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64da64dd-4608-4e11-9aa6-276451d38e3d">
+    <name>Подключается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключается</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

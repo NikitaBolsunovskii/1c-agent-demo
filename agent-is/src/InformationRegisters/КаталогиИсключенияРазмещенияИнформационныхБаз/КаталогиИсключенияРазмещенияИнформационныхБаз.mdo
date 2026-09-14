@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e361446-b66f-4f93-8afb-dfcf99d6239c">
+  <producedTypes>
+    <selectionType typeId="323f88b6-9f0b-49b6-ac7a-1a34d3a48799" valueTypeId="db0ec414-402c-4c1c-8598-b9b24bf063b8"/>
+    <listType typeId="d4abc625-a5a5-477b-8e41-055d21287b3f" valueTypeId="40621f77-abcf-4817-aefc-6a546cc4bdcd"/>
+    <managerType typeId="4e7d35a7-250c-4eee-bbca-fea6cbd5e849" valueTypeId="5b965b45-8ed8-4312-ad67-fc8b7a70d507"/>
+    <recordSetType typeId="6d713b56-6a43-4493-808d-2eda51032102" valueTypeId="a6a3bfcb-77cd-463b-89f6-e5f2b574a24d"/>
+    <recordKeyType typeId="e0c8e1ca-838b-4270-860d-c6a747f1de0b" valueTypeId="fd2bd2c7-0612-46bd-9fe5-c35159f6f8a8"/>
+    <recordType typeId="a49126f8-df00-4f3b-927d-49a7a17033c9" valueTypeId="9ab29642-7118-453e-8bd7-8859e960d7a4"/>
+    <recordManagerType typeId="f5d9ddf8-f855-4c98-a4a6-70b36402ca86" valueTypeId="622adff2-21bd-4cb2-b1eb-222a775006c1"/>
+  </producedTypes>
+  <name>КаталогиИсключенияРазмещенияИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталоги-исключения размещения информационных баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Каталог-исключение размещения информационных баз</value>
+  </recordPresentation>
+  <dimensions uuid="1455555e-db5c-4cbd-b757-c604122e58e9">
+    <name>Путь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь к каталогу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

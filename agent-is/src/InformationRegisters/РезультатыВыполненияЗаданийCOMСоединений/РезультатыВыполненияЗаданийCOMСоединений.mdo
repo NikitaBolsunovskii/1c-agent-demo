@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d765835e-7844-45d9-8630-c9d8d8eea834">
+  <producedTypes>
+    <selectionType typeId="aa3d49e1-ecca-4d43-bfed-1ea4a92b5807" valueTypeId="28a3887b-e3ac-43a6-9e3f-8856a9f62778"/>
+    <listType typeId="1c1be179-733f-4104-8fd1-c89508326d59" valueTypeId="25eb0fb6-5306-4559-b93b-e055975a498c"/>
+    <managerType typeId="bfbebf5e-8110-47e5-a0e6-bc45db307d12" valueTypeId="54c30d03-347b-42f1-a5d9-d5b715d6cb4e"/>
+    <recordSetType typeId="8a8a8475-ac77-4ba2-9634-54621f0598b2" valueTypeId="9fcfd370-9c2e-486a-9c18-ee7d93579603"/>
+    <recordKeyType typeId="07f396aa-398c-4eba-80c3-d578e31520a7" valueTypeId="cae7378b-ce1a-4b00-898d-02c523c94796"/>
+    <recordType typeId="4e6ba81d-7aba-455b-a709-e41a553b5462" valueTypeId="72d6e7cb-8b9b-4de4-82ff-ec0fa074b415"/>
+    <recordManagerType typeId="a281c1f8-46c3-4511-821f-9806b18373de" valueTypeId="d2baa839-96d9-42dd-acec-4d93befe835b"/>
+  </producedTypes>
+  <name>РезультатыВыполненияЗаданийCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты выполнения заданий COM соединений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Результат выполнения задания COM соединений</value>
+  </recordPresentation>
+  <resources uuid="5cb1ffdc-34c2-4153-9fb1-c4f3a241474a">
+    <name>РезультатВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выполнения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="fd5f8e86-74f4-4f58-8afc-4a10651cf8f6">
+    <name>ДатаДобавленияРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления результата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="bf92e5a7-938b-48f3-b9f7-5dff87c36d78">
+    <name>УникальныйИдентификаторЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор задания</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

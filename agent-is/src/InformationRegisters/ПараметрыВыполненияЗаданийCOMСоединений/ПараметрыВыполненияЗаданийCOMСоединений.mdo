@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4809be35-e8f5-4c3d-9701-078b15e4c7ff">
+  <producedTypes>
+    <selectionType typeId="e820d597-9e06-44e6-bf75-d57732f40f82" valueTypeId="aef1191d-c863-470e-81ab-60412cd7a38f"/>
+    <listType typeId="390c6e1f-2eb1-4128-97d2-e7a6cfa8efc6" valueTypeId="08f4292e-db4e-44c7-a790-04cd89f65504"/>
+    <managerType typeId="2af631f0-c1d7-4560-93a5-a48507035210" valueTypeId="bc79606d-153a-4115-963c-b23da3924a92"/>
+    <recordSetType typeId="839220a3-674d-4506-99a3-a3a254d58d83" valueTypeId="05befc5d-c323-4e8c-8369-083723d1df8a"/>
+    <recordKeyType typeId="24694776-4688-4329-9a23-9950f4743647" valueTypeId="1267b6af-483f-4bf0-9d2d-aa6455de9fc9"/>
+    <recordType typeId="c5325a8d-f74a-482e-b0ac-37ba7d67deab" valueTypeId="e4a376b1-03bd-4249-af88-a7f00c265c5d"/>
+    <recordManagerType typeId="3920499e-3a16-46be-ab71-08ecf9860e99" valueTypeId="ad50f336-ffb4-4b51-96e7-13bcbc87e353"/>
+  </producedTypes>
+  <name>ПараметрыВыполненияЗаданийCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры выполнения заданий COM соединений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Параметры выполнения задания COM соединений</value>
+  </recordPresentation>
+  <resources uuid="6b07e9a2-bbff-44b1-a3fc-df8baa043be8">
+    <name>ПараметрыВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры выполнения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6540862a-afed-4c72-a9f5-3f83822626db">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

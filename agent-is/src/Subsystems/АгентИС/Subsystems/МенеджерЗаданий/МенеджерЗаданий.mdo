@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9242e8f9-8516-4e30-b834-af704c85a0ae">
+  <name>МенеджерЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер заданий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ScheduledJob.МенеджерЗаданий</content>
+  <content>CommonModule.РаботаСМенеджеромЗаданийСлужебный</content>
+  <content>InformationRegister.ЗаданияМенеджераЗаданий</content>
+  <content>Enum.СостоянияЗаданийМенеджераЗаданий</content>
+  <content>InformationRegister.НастройкиМетодовОбработчиковМенеджераЗаданий</content>
+  <content>InformationRegister.НастройкиМенеджераЗаданий</content>
+  <content>CommonModule.РаботаСМенеджеромЗаданий</content>
+  <parentSubsystem>Subsystem.АгентИС</parentSubsystem>
+</mdclass:Subsystem>

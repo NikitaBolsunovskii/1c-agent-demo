@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b27fe18-5b64-45ec-ae5e-5e58927d4260">
+  <producedTypes>
+    <refType typeId="d63d93e2-1cde-4dc4-84ac-5986e5539381" valueTypeId="76e16cc2-0847-4cb7-b7fd-c5b350938947"/>
+    <listType typeId="11473e0b-6953-4170-bc76-efccd952bf24" valueTypeId="ce78490f-956a-4bda-9707-b15dac6f902f"/>
+    <managerType typeId="b6715e93-5c8a-48da-8e28-480e4aafe22b" valueTypeId="3ce6d8e0-9474-455f-b240-fc96b9a0326e"/>
+  </producedTypes>
+  <name>СостоянияЗаданийМенеджераЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cостояния заданий (Менеджер заданий)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="44fd604b-ba1e-41d0-aae2-f348e8dbc36f">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e01cb488-7fc6-4b10-9f08-b24d07482519">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db6a884f-7468-429c-9173-d22df23c2d0e">
+    <name>НаПаузе</name>
+    <synonym>
+      <key>ru</key>
+      <value>На паузе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="810c84cb-a216-473d-b782-dbac03986182">
+    <name>Ожидает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b38e799-92c8-41af-bbe3-631f49ba4571">
+    <name>ОжидаетВыделенногоИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает выделенного исполнителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23d36ec9-8761-40d8-8d4f-440dc8cdf733">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

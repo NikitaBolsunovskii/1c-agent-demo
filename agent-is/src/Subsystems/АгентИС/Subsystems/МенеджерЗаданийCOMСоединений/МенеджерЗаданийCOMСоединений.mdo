@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31c04294-8ab4-4017-b4c0-20ce44ddc313">
+  <name>МенеджерЗаданийCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер заданий COM Соединения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.COMСоединения</content>
+  <content>Enum.СтатусыCOMСоединений</content>
+  <content>InformationRegister.ЗаданияCOMСоединений</content>
+  <content>Enum.ОбработчикиЗаданийCOMСоединений</content>
+  <content>Enum.СтатусыЗаданийCOMСоединений</content>
+  <content>Enum.СтатусыОтправкиРезультатовЗаданийCOMСоединений</content>
+  <content>InformationRegister.ПараметрыВыполненияЗаданийCOMСоединений</content>
+  <content>InformationRegister.РезультатыВыполненияЗаданийCOMСоединений</content>
+  <content>CommonModule.РаботаСЗаданиямиCOMСоединенийСлужебный</content>
+  <content>ScheduledJob.МенеджерЗаданийCOMСоединений</content>
+  <content>InformationRegister.НастройкиМенеджераЗаданийCOMСоединений</content>
+  <content>InformationRegister.НастройкиОбработчиковЗаданийCOMСоединений</content>
+  <content>CommonModule.РаботаСЗаданиямиCOMСоединенийПереопределяемый</content>
+  <content>CommonModule.РаботаСЗаданиямиCOMСоединений</content>
+  <content>InformationRegister.ЗапросыНаОтменуЗаданийCOMСоединений</content>
+  <parentSubsystem>Subsystem.АгентИС</parentSubsystem>
+</mdclass:Subsystem>

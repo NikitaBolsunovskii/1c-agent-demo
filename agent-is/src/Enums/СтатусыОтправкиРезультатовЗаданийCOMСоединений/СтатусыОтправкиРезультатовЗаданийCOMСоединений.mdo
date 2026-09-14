@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b1f1010-9fc7-424a-b260-1733bb0d9491">
+  <producedTypes>
+    <refType typeId="0ca543e5-c9ed-44b1-a1e5-da19bf6cf46d" valueTypeId="f269dbdb-4feb-4c7c-8573-2d9471d7a3b8"/>
+    <listType typeId="3b8c137b-031c-4a2d-b157-52f11c3a7876" valueTypeId="0a71ee07-c4b7-4d8d-93d5-d8237a488de2"/>
+    <managerType typeId="9328df4b-3324-4db2-96e8-4aba3537864a" valueTypeId="1bc05619-c85f-4314-a32c-b2008c875aed"/>
+  </producedTypes>
+  <name>СтатусыОтправкиРезультатовЗаданийCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы отправки результатов заданий COMСоединений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="83fd1c58-2a9c-49fe-b58d-aefb88fca521">
+    <name>НеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не требуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a943aa2-664f-4dff-9fc1-83f74ee4ee10">
+    <name>Ожидает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b4227a2-b0e3-464e-90bb-3c3c4a9a9fb8">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e79953b9-e3b1-4e6e-8b93-8f649a2cdc9e">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

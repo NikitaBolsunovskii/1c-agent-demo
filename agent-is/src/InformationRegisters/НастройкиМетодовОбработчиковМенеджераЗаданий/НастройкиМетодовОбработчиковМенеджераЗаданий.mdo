@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8893927-4447-481d-ad64-5834617b580d">
+  <producedTypes>
+    <selectionType typeId="fed50da0-af4a-4862-9d40-6906a04e6eab" valueTypeId="59306b33-3d15-49f3-ac18-fe6026e25e45"/>
+    <listType typeId="4b4227f6-6a8d-4939-bea6-89186901a900" valueTypeId="b4bcce70-c718-4df7-94af-186d0c07e673"/>
+    <managerType typeId="1a7bca0b-7252-46fe-93d1-42c59db19f27" valueTypeId="1a34931e-7838-4735-af5d-92986d22899f"/>
+    <recordSetType typeId="15276fe3-2cec-4e24-9c8a-74b4009c2e52" valueTypeId="2ab7001b-bd7e-493f-92f8-37f01250fde7"/>
+    <recordKeyType typeId="4bc07256-45b9-4a54-9927-c9be3e8bfbc0" valueTypeId="0a073624-9bb4-4370-8f2e-418334e5aad6"/>
+    <recordType typeId="f42d9133-0c94-404b-97a3-554fab6fb3d2" valueTypeId="d2a4c6fb-74f7-4a02-9ccf-6511f4fc3aa5"/>
+    <recordManagerType typeId="81b85de5-2546-4dcd-853e-9d8b5a089e02" valueTypeId="450ba773-5714-4f7c-8156-16105f0f88c2"/>
+  </producedTypes>
+  <name>НастройкиМетодовОбработчиковМенеджераЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки методов обработчиков (Менеджер заданий)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройки метода обработчика (Менеджер заданий)</value>
+  </recordPresentation>
+  <resources uuid="0414ea58-cae9-4962-89a9-5fd0cbfa185c">
+    <name>МаксимальноеКоличествоИсполнителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество исполнителей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="def14025-ae1e-4d49-b488-2c9bfdcb0627">
+    <name>МаксимальноеКоличествоПопытокВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество попыток выполнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2b6eb157-8141-4e6c-8a24-002fd76d5f7b">
+    <name>ПаузаПередНовойПопыткой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пауза перед новой попыткой</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="67a08465-06d5-4a6e-a2d0-37447e3d07c7">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8269e61d-9573-44fa-9b76-6904d1e8c1e0">
+    <name>ИмяМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

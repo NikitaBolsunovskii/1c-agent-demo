@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e512c183-3904-4791-8ac2-96997066d2b2">
+  <producedTypes>
+    <selectionType typeId="86c00a48-d97c-4e9b-a403-5cb88814b994" valueTypeId="cfaeb746-bc5b-4443-9180-4d88cae873b5"/>
+    <listType typeId="12aab1a5-271d-4bd0-96bf-5e6f23423fad" valueTypeId="1cc44f85-4edc-4440-b9a0-c6863fcbc544"/>
+    <managerType typeId="5b0f47b5-307d-47ad-8fbe-a72b1ffae031" valueTypeId="54ef3fab-8891-4f4f-aee5-f6f9de11466e"/>
+    <recordSetType typeId="0fed1fa5-acab-46fb-abe4-facc955fd3ce" valueTypeId="0c7a3bb0-3db3-4f6c-a065-a2c65f33e0ce"/>
+    <recordKeyType typeId="0fac8a18-6007-4037-a58c-6f3088059fd3" valueTypeId="ac42c6a3-1e37-44aa-a28d-20479df98e43"/>
+    <recordType typeId="ed7290c3-0f46-48fc-8f8e-d9a348b404d7" valueTypeId="f47f3862-32ca-4114-b51b-31806cc20072"/>
+    <recordManagerType typeId="6a5c07f4-6d12-413e-be76-e671ffcb010b" valueTypeId="1aa2ed05-53ac-4428-b059-0a8de3918197"/>
+  </producedTypes>
+  <name>ЗапросыНаОтменуЗаданийCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы на отмену заданий COM соединений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запрос на отмену задания COM соединений</value>
+  </recordPresentation>
+  <resources uuid="9ddc0297-a95d-4764-9ef3-828dfab4f881">
+    <name>ЗаданиеБылоОтмененоЗапросом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание было отменено запросом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="03c5c310-a4d3-4da3-8ac3-f3b3553f8096">
+    <name>ДатаДобавленияЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления запроса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="1cc0e342-e60a-4756-833d-cc22d87c2d05">
+    <name>УникальныйИдентификаторЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор задания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

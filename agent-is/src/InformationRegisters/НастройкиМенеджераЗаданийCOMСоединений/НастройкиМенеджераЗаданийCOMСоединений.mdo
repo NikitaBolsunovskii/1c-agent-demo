@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40b88d14-bf48-4546-9865-f9563ef2235c">
+  <producedTypes>
+    <selectionType typeId="73621f19-52c2-4b44-99c0-5317d217fdb7" valueTypeId="4365102d-cb6c-4681-b978-6c0e954fb891"/>
+    <listType typeId="d733f136-a492-4503-8f59-b4f4a5814d0b" valueTypeId="06c6f86b-8aea-4960-aef1-dcad69b1d346"/>
+    <managerType typeId="3900ff45-9bed-4b4f-b086-4c57629e7fbb" valueTypeId="2c2136a1-cdd2-4905-afa2-8bde2a6574ed"/>
+    <recordSetType typeId="7efcfb06-315a-4314-9e7f-7e89aa005571" valueTypeId="743567aa-b8b9-4566-bf44-b1ca5e5ae612"/>
+    <recordKeyType typeId="54b71c45-6361-4c40-80ee-98d39829a043" valueTypeId="e736e466-fa26-4cc0-b635-020c8d5416b7"/>
+    <recordType typeId="c08ebbc2-a394-4c3b-a870-cc3c26225fdc" valueTypeId="3227a2fb-a45e-4190-9903-39444e2b52f2"/>
+    <recordManagerType typeId="bc940a63-9dd6-4f0a-b9da-d3748b0fd41b" valueTypeId="88b82f15-adb4-49eb-8503-a360f7fbe1c9"/>
+  </producedTypes>
+  <name>НастройкиМенеджераЗаданийCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки менеджера заданий COM соединений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройки менеджера заданий COM соединений</value>
+  </recordPresentation>
+  <resources uuid="08fa9d82-fb0f-40a4-881f-689425433d4e">
+    <name>ДлительностьАктивныхФоновыхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность активных фоновых заданий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Длительность актиности фонового задания указывается в часах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="76dd3ff0-8993-4a31-be2d-f26612f4de16">
+    <name>МаксимальноеКоличествоФоновыхCOMСоединений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество фоновых COM соединений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

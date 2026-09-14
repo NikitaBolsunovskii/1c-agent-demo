@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="817fd287-2935-4ede-ae64-08df4076339a">
+  <name>ИнтеграцияСERP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с ERP</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РаботаСAPIERP</content>
+  <content>InformationRegister.НастройкиИнтеграцииСERP</content>
+  <content>HTTPService.ЗаданияCOMСоединений</content>
+  <parentSubsystem>Subsystem.АгентИС</parentSubsystem>
+</mdclass:Subsystem>

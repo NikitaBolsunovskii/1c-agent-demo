@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9162d3d-931a-406b-86a4-f8ab4ed43ab6">
+  <producedTypes>
+    <selectionType typeId="d577d334-55b3-41c5-a154-bc751a179ce5" valueTypeId="3bae4184-7348-4a72-ae9c-7e05b1b10ed0"/>
+    <listType typeId="6c2b9b7a-6ac0-44ae-8122-a0a6862af569" valueTypeId="df26b03d-60bd-48e8-a4c1-adf0066aca19"/>
+    <managerType typeId="fc3d9d81-3935-4c67-9811-5dbee0cf4d41" valueTypeId="535baef9-7468-4a91-aafc-655e76ff063b"/>
+    <recordSetType typeId="754ef6be-4e37-43cd-bd6e-735be478dddc" valueTypeId="5adb5f33-6f93-4b52-99ef-6b6d739a6638"/>
+    <recordKeyType typeId="af55b8af-e6da-470f-a9c9-2ad65c4c24c7" valueTypeId="1cf24714-d569-42c3-aa58-9cf4cec524a6"/>
+    <recordType typeId="06b0c161-7037-4e51-beb8-d56a7dac557c" valueTypeId="e4e8f9a2-1081-4112-87ab-3d66fba59a9f"/>
+    <recordManagerType typeId="a65efc71-03c0-45ab-ae52-a821f5750150" valueTypeId="029d03fa-0c1a-474d-8035-ed157931234b"/>
+  </producedTypes>
+  <name>КаталогиРазмещенияИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталоги размещения информационных баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Каталог размещения информационных баз</value>
+  </recordPresentation>
+  <dimensions uuid="4acae283-14c3-4b03-a0b0-b68e285fad2b">
+    <name>Путь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь к каталогу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

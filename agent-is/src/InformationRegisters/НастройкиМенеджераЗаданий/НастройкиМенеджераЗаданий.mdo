@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e865a4d7-b19b-416d-8c30-a20dba14ec09">
+  <producedTypes>
+    <selectionType typeId="9cde7756-7e9d-4131-8eb8-15753e029072" valueTypeId="6c71327e-2cc2-4d65-99d3-7d5efa192dbb"/>
+    <listType typeId="4e823dcb-4f70-4895-99f1-9cb19ed04caf" valueTypeId="d3581a80-3db5-42c0-9c42-af2b74cc9a97"/>
+    <managerType typeId="4a255442-100e-4598-ae1a-921328356ba4" valueTypeId="93c530e0-c281-480d-9189-74ab64e2b8ec"/>
+    <recordSetType typeId="2ffec415-1207-4226-b207-192419f25d07" valueTypeId="8e9eeeca-97c7-4966-9a30-f8db2d1b775c"/>
+    <recordKeyType typeId="aa3af8c2-970b-4cbf-bbbc-383f10b61600" valueTypeId="3ed9b551-b9d3-4e8c-89ec-30ddb1aeba63"/>
+    <recordType typeId="7b053751-4706-4a86-b4cf-32d74309a7eb" valueTypeId="ce958022-46f1-4d08-8b70-2bd8319f922d"/>
+    <recordManagerType typeId="f4ace91a-e0e9-44bd-8940-fab54516c2bc" valueTypeId="403cdd2d-54de-4e4c-8b92-49c6647a4b6a"/>
+  </producedTypes>
+  <name>НастройкиМенеджераЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки (Менеджер заданий)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройки (Менеджер заданий)</value>
+  </recordPresentation>
+  <resources uuid="cbad412c-7230-493e-b002-e20c926769d0">
+    <name>ОграничениеНаКоличествоИсполнителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение на количество исполнителей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b51a34ba-139e-42b4-8b02-966547d47ae6">
+    <name>ГлубинаХраненияИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина хранения истории</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

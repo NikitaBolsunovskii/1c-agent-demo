@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="608011ed-d5ee-414f-974e-1499fdd09253">
+  <producedTypes>
+    <selectionType typeId="a8ff7a7e-3854-47b3-a975-e2b790f6b197" valueTypeId="22ff84af-94cc-47a2-b364-decee806a6ea"/>
+    <listType typeId="84efabb7-0e5c-4bf4-b224-382200f9741d" valueTypeId="f19b4dfe-5056-4c99-a02c-c6d592a958c0"/>
+    <managerType typeId="08bf0bdb-7992-4355-90a2-d215ff1459ed" valueTypeId="620591e1-a960-43a9-ae21-fd0d4ab15c8e"/>
+    <recordSetType typeId="daa9e45c-1659-4f01-9713-4c288f7114be" valueTypeId="6ab496d0-b8c7-470e-bda6-13405673687e"/>
+    <recordKeyType typeId="0afa8cc9-2ca5-4a89-84b7-c4fdd25e8b58" valueTypeId="4a8e50eb-17c9-42d0-a0a3-6359914a103c"/>
+    <recordType typeId="fff8e5bb-5c47-451b-a8a0-28d066ff3316" valueTypeId="146a3d56-68c0-4d97-9d9c-6fed682b8877"/>
+    <recordManagerType typeId="07581fd7-21e2-41c1-a58d-61e0d552fcc0" valueTypeId="afa1e6ba-a80e-4780-a04b-23e3ed561355"/>
+  </producedTypes>
+  <name>НастройкиОбработчиковЗаданийCOMСоединений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки обработчиков заданий COM соединений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка обработчика заданий COM соединений</value>
+  </recordPresentation>
+  <resources uuid="c7bfc691-7268-4fc2-9dee-cd8a38a24a9e">
+    <name>МаксимальноеКоличествоОдновременныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество одновременных заданий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="042c08f2-21be-442e-9279-874c8b0fe7e7">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bcf2375c-2e66-4d6e-a33d-1bfad3e5f881">
+    <name>ОбработчикЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработчик задания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОбработчикиЗаданийCOMСоединений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

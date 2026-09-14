@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92728554-8577-466d-a3c4-68d64a3e34b3">
+  <producedTypes>
+    <selectionType typeId="54e2c6d5-d6cf-425c-b0f3-be870b6d05c9" valueTypeId="cff6938b-cd63-4c9f-9174-ed15b9f79b51"/>
+    <listType typeId="9086e3f5-0745-4463-ae1a-494e06d59f0e" valueTypeId="0485f99b-20cf-488a-bd64-81fd16c9c8b2"/>
+    <managerType typeId="cdb4f31c-4e13-4130-9987-b45b13c98852" valueTypeId="612f24e2-f02e-4b86-acc1-3f479bb9c18c"/>
+    <recordSetType typeId="a72892b9-f625-423c-81fc-dc30499fa5df" valueTypeId="2fab03f7-1dc2-4b59-8682-f79c59a685d9"/>
+    <recordKeyType typeId="ab62a796-a51c-44fb-b969-3a2959fc293e" valueTypeId="fe387e24-ccb1-474d-93d5-f27d756ddc43"/>
+    <recordType typeId="870093b4-29cb-4047-a808-5f8929d039e9" valueTypeId="d58838dc-fe23-4692-be41-d2f620a03382"/>
+    <recordManagerType typeId="a9665a9b-909a-4c71-b6b1-4b4545f80985" valueTypeId="258a6db9-562d-4eb6-81d7-cc8fa9c07a1a"/>
+  </producedTypes>
+  <name>НастройкиИнтеграцииСERP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции с ERP</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройки интеграции с ERP</value>
+  </recordPresentation>
+  <resources uuid="f8eecd37-109b-4909-9d60-d52f1bcb95f4">
+    <name>АдресСервисаСинхронизацииЕРП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервиса синхронизации ЕРП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+</mdclass:InformationRegister>

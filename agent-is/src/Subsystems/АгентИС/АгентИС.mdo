@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e22bc620-7efa-4957-8f56-21a4379dfa14">
+  <name>АгентИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агент ИС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.НастройкиОчередиЗаданий</content>
+  <subsystems>ИнтеграцияБСП</subsystems>
+  <subsystems>ИнтеграцияСERP</subsystems>
+  <subsystems>МенеджерЗаданий</subsystems>
+  <subsystems>МенеджерЗаданийCOMСоединений</subsystems>
+  <subsystems>СлужебныеОбъектыСистемы</subsystems>
+</mdclass:Subsystem>
